@@ -1,0 +1,14 @@
+{
+  "editor.formatOnPaste": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact"
+    ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "editor.autoIndent": "advanced",
+  "javascript.suggest.autoImports": true,
+  "explorer.compactFolders": false
+}
