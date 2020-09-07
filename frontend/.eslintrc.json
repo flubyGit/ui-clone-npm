@@ -16,10 +16,13 @@
         "sourceType": "module"
     },
     "plugins": [
-        // "react",
+        "react",
         "prettier"
     ],
     "rules": {
-      "prettier/prettier":"error"
+      // "prettier/prettier":"error"
+      "import/prefer-default-export":"off",
+      "max-len": "off",
+      "comma-dangle": "off"
     }
 }

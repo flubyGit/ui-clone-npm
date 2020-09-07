@@ -1,12 +1,12 @@
-import React from 'react'
-import { Container } from './styled'
-import Warning from '../../components/Warning'
-import Header from '../../components/Header'
-import Main from '../../components/Main'
-import Section from '../../components/Section'
-import Aside from '../../components/Aside'
-import Companies from '../../components/Companies'
-import Footer from '../../components/Footer'
+import React from 'react';
+import { Container } from './styled';
+import Warning from '../../components/Warning';
+import Header from '../../components/Header';
+import Main from '../../components/Main';
+import Section from '../../components/Section';
+import Aside from '../../components/Aside';
+import Companies from '../../components/Companies';
+import Footer from '../../components/Footer';
 
 export default function Landing() {
   return (
@@ -33,5 +33,5 @@ export default function Landing() {
         <Footer />
       </footer>
     </Container>
-  )
+  );
 }

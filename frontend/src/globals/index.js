@@ -12,6 +12,9 @@ export default createGlobalStyle`
   ul, li {
     list-style: none;
   }
+  li {
+    cursor: pointer;
+  }
   html {
     font-size: 62.5%;
     font-family: 'Poppins';

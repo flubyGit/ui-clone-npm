@@ -1,6 +1,6 @@
-import background from '../../assets/images/bg.png'
-import styled from 'styled-components'
-import { mobileDisplayCenter } from '../../globals/utils'
+import styled from 'styled-components';
+import background from '../../assets/images/bg.png';
+import { mobileDisplayCenter } from '../../globals/utils';
 
 export const Container = styled.div`
   background-image: url(${background});
@@ -15,7 +15,7 @@ export const Container = styled.div`
     padding: 5em 23rem;
   }
   @media (min-width: 1000px) and (max-width: 1400px) {
-    padding: 5em 35rem;
+    padding: 5em 36rem;
   }
 
   > h1 {
@@ -81,4 +81,4 @@ export const Container = styled.div`
       }
     }
   }
-`
+`;

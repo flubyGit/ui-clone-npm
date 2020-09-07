@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { configBorderColored } from '../../globals/utils'
+import styled from 'styled-components';
+import { configBorderColored } from '../../globals/utils';
 
 export const Container = styled.div`
   padding: 2rem;
@@ -49,4 +49,4 @@ export const Container = styled.div`
       }
     }
   }
-`
+`;

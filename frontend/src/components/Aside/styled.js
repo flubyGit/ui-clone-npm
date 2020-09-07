@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import { mobileDisplayCenter } from '../../globals/utils'
-import background from '../../assets/images/bg2.png'
+import styled from 'styled-components';
+import { mobileDisplayCenter } from '../../globals/utils';
+import background from '../../assets/images/bg2.png';
 
 export const Container = styled.div`
   ${mobileDisplayCenter};
@@ -33,4 +33,4 @@ export const Container = styled.div`
       line-height: 2.7rem;
     }
   }
-`
+`;

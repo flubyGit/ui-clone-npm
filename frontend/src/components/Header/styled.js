@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import search from '../../assets/images/search.png'
+import styled from 'styled-components';
+import search from '../../assets/images/search.png';
 
 export const Container = styled.div`
   display: grid;
@@ -17,8 +17,6 @@ export const Container = styled.div`
     }
     > ol:first-child {
       > li {
-        cursor: pointer;
-
         &:hover {
           opacity: 0.5;
         }
@@ -50,7 +48,6 @@ export const Container = styled.div`
         width: 80%;
       }
       > li {
-        cursor: pointer;
         &:hover {
           opacity: 0.5;
         }
@@ -76,15 +73,22 @@ export const Container = styled.div`
     }
     @media (min-width: 1000px) and (max-width: 1400px) {
       grid-template-columns: 9% 70%;
+      height: 15vh;
     }
-    > i {
+    > figure {
       cursor: pointer;
+      @media (min-width: 320px) {
+        margin-top: 1rem;
+      }
       @media (min-width: 470px) {
         grid-area: npm;
+        align-self: center;
       }
       @media (min-width: 1000px) and (max-width: 1400px) {
         margin-top: 20px;
         gap: 2px 0;
+        justify-self: center;
+        align-self: center;
       }
     }
     > div {
@@ -97,6 +101,12 @@ export const Container = styled.div`
       }
       @media (min-width: 470px) {
         grid-area: text;
+      }
+      @media (min-width: 600px) and (max-width: 999px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
       }
       @media (min-width: 1000px) and (max-width: 1400px) {
         margin-top: 10px;
@@ -131,7 +141,8 @@ export const Container = styled.div`
       @media (min-width: 470px) {
         grid-area: form;
         align-items: center;
-
+      }
+      @media (min-width: 1000px) and (max-width: 1400px) {
         padding: 1rem 0 0 0;
       }
       > input {
@@ -146,13 +157,14 @@ export const Container = styled.div`
         background-position: 12px 16px;
         background-repeat: no-repeat;
 
-        @media (min-width: 430px) {
+        @media (max-width: 430px) {
           width: auto;
           height: 70%;
         }
         @media (min-width: 1000px) and (max-width: 1400px) {
           width: 100%;
-          height: 50%;
+          font-size: 1.3rem;
+          height: 60%;
         }
 
         &:focus {
@@ -175,15 +187,15 @@ export const Container = styled.div`
         @media (min-width: 350px) {
           width: 34%;
         }
-        @media (min-width: 430px) {
+        @media (max-width: 430px) {
           width: auto;
           height: 70%;
         }
         @media (min-width: 1000px) and (max-width: 1400px) {
           width: 15%;
-          height: 50%;
+          height: 60%;
         }
       }
     }
   }
-`
+`;

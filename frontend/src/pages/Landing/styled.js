@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
@@ -8,4 +8,4 @@ export const Container = styled.div`
     border-image: linear-gradient(53deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
     border-bottom-width: 10px;
   }
-`
+`;
