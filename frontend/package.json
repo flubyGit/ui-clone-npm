@@ -11,9 +11,8 @@
     "*.{js,jsx}": [
       "eslint --fix",
       "prettier --write",
-      "cross-env CI=true yarn test --bail --findRelatedTests",
-      "git add"
-    ]
+      "cross-env CI=true yarn test --bail --findRelatedTests"
+      ]
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
