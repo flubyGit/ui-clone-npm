@@ -1,6 +1,7 @@
-backend/node_modules
-backend/*.log
-backend/.env
+backend/
 
 frontend/node_modules
 frontend/*.log
+frontend/.git
+frontend/.env
+frontend/*.build

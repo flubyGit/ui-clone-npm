@@ -6,11 +6,9 @@ import Globals from './globals';
 import LandingProvider from './contexts/LandingContext';
 
 ReactDOM.render(
-  <>
-    <LandingProvider>
-      <Globals />
-      <Landing />
-    </LandingProvider>
-  </>,
+  <LandingProvider>
+    <Globals />
+    <Landing />
+  </LandingProvider>,
   document.getElementById('root')
 );
